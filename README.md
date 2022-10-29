@@ -1,7 +1,7 @@
 # Navigation System | NTU DP
 
 #### Website for students to help to navigate in University.
-#### Using Front-end framework Bootstrap
+#### Using Front-end framework Bootstrap and jQuery UI.
 
 ## Table of contents
 * [How to use it](#How-to-use-it)
@@ -24,6 +24,7 @@ User has...
 * HTML5
 * CSS
 * Bootstrap
+* jQuery UI
 
 ### Installation
 #### Through HTTPS
