@@ -17,6 +17,7 @@
 User has...
 1. To choose a hull
 2. To choose a number of classroom
+3. See results!
 
 
 ## Setup

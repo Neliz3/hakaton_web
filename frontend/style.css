@@ -1,0 +1,155 @@
+.osnova {
+    position: absolute;
+    top: 20%;
+    bottom: 70%;
+    height: 80%;
+    left: 25%;
+    width: 50%;
+    background-image: url(images/Korpusa_NGU.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+#header {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 9%;
+    width: 100%;
+    background-color: #349cbf;
+    overflow: visible;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height:30%;
+    width: 100%;
+    background-color: #349cbf;
+}
+
+
+#foot2 {
+    position: center;
+    height: 100%;
+    width: 100%;
+    background-color: #349cbf;
+}
+
+.foottext {
+    text-align: left;
+    color: white;
+    border-bottom-width: 1px;
+}
+
+#divfooter {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 100%
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.block{
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.305);
+}
+
+.korpys1{
+    top: 210px;
+    left: 180px;
+    height: 30px;
+    width: 55px;
+}
+.korpys2 {
+    top: 290px;
+    left: 160px;
+    height: 30px;
+    width: 55px;
+}
+.korpys4 {
+    top: 210px;
+    left: 400px;
+    height: 30px;
+    width: 55px;
+}
+.korpys5 {
+    top: 260px;
+    left: 355px;
+    height: 30px;
+    width: 55px;
+}
+.korpys10 {
+    top: 315px;
+    left: 265px;
+    height: 30px;
+    width: 55px;
+}
+#pystota{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    top: 600px;
+    left: 0px;
+}
+.korpys7 {
+    top: 375px;
+    left: 130px;
+    height: 30px;
+    width: 55px;
+}
+.korpys6 {
+    top: 425px;
+    left: 260px;
+    height: 30px;
+    width: 55px;
+}
+.korpys3 {
+    top: 456px;
+    left: 220px;
+    height: 30px;
+    width: 55px;
+}
+
+#vibor ayditorii{
+    height: 300px;
+    position: center;
+    vertical-align: middle
+}
+#floor1 {
+    position: absolute;
+    left: 20%;
+    width: 100px;
+    height: 300px;
+}
+#k1 {
+    position:absolute;
+    left: 20%;
+    top: 19%;
+    height: 400px;
+    width: 800px;
+    overflow: hidden
+}
+#aydit35 {
+    position: absolute;
+    top: 123px;
+    left: 753px;
+    height: 47px;
+    width: 15px;
+    background-color: yellow;
+    opacity: 0.6;
+}
+#aydit69 {
+    position: absolute;
+    top: 223px;
+    left: 405px;
+    height: 75px;
+    width: 70px;
+    background-color: yellow;
+    opacity: 0.6;
+}
