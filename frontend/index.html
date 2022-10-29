@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <title>NTU GID</title>
     <style>
-        #osnova {
+        .osnova {
             position: absolute;
             top: 20%;
             bottom: 70%;
@@ -37,7 +37,7 @@
             left: 0px;
             height:30%;
             width: 100%;
-            background-color: #d6abed
+            background-color: #349cbf;
         }
         
 
@@ -45,11 +45,13 @@
             position: center;
             height: 100%;
             width: 100%;
-            background-color: #918b94
+            background-color: #349cbf;
         }
 
         .foottext {
             text-align: left;
+            color: white;
+            border-bottom-width: 1px;
         }
 
         #divfooter {
@@ -61,82 +63,69 @@
 
         a {
             text-decoration: none;
-            color: white
+            color: white;
         }
 
-        
-        #korpys1{
+        .block{
             position: absolute;
+            background-color: rgba(0, 0, 255, 0.305);
+        }
+
+        .korpys1{
             top: 210px;
             left: 180px;
             height: 30px;
             width: 55px;
-            background-color: black;
-
         }
-        #korpys2 {
-            position: absolute;
+        .korpys2 {
             top: 290px;
             left: 160px;
             height: 30px;
             width: 55px;
-            background-color: black;
         }
-        #korpys4 {
-            position: absolute;
+        .korpys4 {
             top: 210px;
             left: 400px;
             height: 30px;
             width: 55px;
-            background-color: black;
         }
-        #korpys5 {
-            position: absolute;
+        .korpys5 {
             top: 260px;
             left: 355px;
             height: 30px;
             width: 55px;
-            background-color: black;
         }
-        #korpys10 {
-            position: absolute;
+        .korpys10 {
             top: 315px;
             left: 265px;
             height: 30px;
             width: 55px;
-            background-color: black;
         }
         #pystota{
-            position: absolute;
             height: 400px;
             width: 100%;
             top: 600px;
             left: 0px;
         }
-        #korpys7 {
-            position: absolute;
+        .korpys7 {
             top: 375px;
             left: 130px;
             height: 30px;
             width: 55px;
-            background-color: black;
         }
-        #korpys6 {
-            position: absolute;
+        .korpys6 {
             top: 425px;
             left: 260px;
             height: 30px;
             width: 55px;
-            background-color: black;
         }
-        #korpys3 {
-            position: absolute;
+        .korpys3 {
             top: 456px;
             left: 220px;
             height: 30px;
             width: 55px;
-            background-color: black;
         }
+
     </style>
 </head>
 <body>
@@ -167,27 +156,17 @@
 
 
 
-    <div id="osnova">
-        <a id="korpys1" href="1korpys.html">
-        </a>
-        <a id="korpys2" onclick="alert('Hi')">
-        </a>
-        <a id="korpys4" onclick="alert('Hi')">
-        </a>
-        <a id="korpys5" onclick="alert('Hi')">
-        </a>
-        <a id="korpys10" onclick="alert('Hi')">
-        </a>
-        <a id="korpys7" onclick="alert('Hi')">
-        </a>
-        <a id="korpys6" onclick="alert('Hi')">
-        </a>
-        <a id="korpys3" onclick="alert('Hi')">
-        </a>
-        <a id="korpys6" onclick="alert('Hi')">
-        </a>
-        <a id="korpys6" onclick="alert('Hi')">
-        </a>
+    <div class="osnova">
+        <a class="korpys1 block" href="1korpys.html"></a>
+        <a class="korpys2 block" onclick="alert('Hi')"></a>
+        <a class="korpys3 block" onclick="alert('Hi')"></a>
+        <a class="korpys4 block" onclick="alert('Hi')"></a>
+        <a class="korpys5 block" onclick="alert('Hi')"></a>
+        <a class="korpys6 block" onclick="alert('Hi')"></a>
+        <a class="korpys7 block" onclick="alert('Hi')"></a>
+        <a class="korpys8 block" onclick="alert('Hi')"></a>
+        <a class="korpys9 block" onclick="alert('Hi')"></a>
+        <a class="korpys10 block" onclick="alert('Hi')"></a>
     </div>
 
 
@@ -341,7 +320,6 @@
                 </table>
             </div>
         </div>
-   
-   
+
 </body>
 </html>
