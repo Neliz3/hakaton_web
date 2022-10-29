@@ -129,16 +129,16 @@ a {
 }
 #k1 {
     position:absolute;
-    left: 20%;
-    top: 19%;
+    left: 27%;
+    top: 13%;
     height: 400px;
     width: 800px;
     overflow: hidden
 }
 #aydit35 {
     position: absolute;
-    top: 123px;
-    left: 753px;
+    top: 110px;
+    left: 690px;
     height: 47px;
     width: 15px;
     background-color: yellow;
@@ -149,6 +149,16 @@ a {
     top: 223px;
     left: 405px;
     height: 75px;
+    width: 70px;
+    background-color: yellow;
+    opacity: 0.6;
+}
+
+#aydit102 {
+    position: absolute;
+    top: 140px;
+    left: 680px;
+    height: 40px;
     width: 70px;
     background-color: yellow;
     opacity: 0.6;
