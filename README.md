@@ -20,12 +20,6 @@ User has...
 3. See results!
 
 
-## Setup
-* All packages are located in requirements.txt
-* Environmental variables are located in .env
-  (you must change example.env file)
-  
-
 ### Technologies Used
 * HTML5
 * CSS
